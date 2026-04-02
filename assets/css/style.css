@@ -7953,7 +7953,7 @@ label {
 
 .orbia-info-box.style-two .info p {
   font-size: 18px;
-  color: #D8D8DC;
+  color: #ffffff;
 }
 
 .orbia-contact_one {
@@ -8227,9 +8227,9 @@ label {
   border-radius: 20px;
 }
 
-.orbia-contact-info-sec .orbia-content-box {
+/* .orbia-contact-info-sec .orbia-content-box {
   padding-right: 35px;
-}
+} */
 
 @media screen and (max-width: 1199.98px) {
   .orbia-contact-info-sec .orbia-content-box {
@@ -9424,3 +9424,203 @@ color: #666;
                         line-height: 1.7;
                         font-size: 17px !important;
                     }
+
+
+
+                    .auto-tabs h1 {
+                        font-size: 36px;
+                        margin-bottom: 20px;
+                        color: #fff;
+                        font-weight: 800;
+                      }
+
+
+.contact-section-new {
+    padding: 80px 20px;
+    background: #f5f7f8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* FORM */
+.contact-form-box {
+    flex: 1;
+}
+
+.contact-form-new input,
+.contact-form-new textarea {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+.contact-form-new textarea {
+    border-radius: 20px;
+    height: 120px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form-new button {
+    background: #0b4f56;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* MAP */
+.contact-map-box {
+    flex: 1;
+}
+
+.contact-map-box iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* CARDS */
+.contact-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.card-box {
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.call-box {
+    background: #006f72;
+    color: #fff;
+}
+
+.card-box h3 {
+    color: #fff;
+}
+
+.email-box {
+    background: #006f72;
+    color: #fff;
+}
+
+.address-box {
+    background: #006f72;
+}
+
+.card-box .icon {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.card-box h3 {
+    margin: 5px 0;
+}
+
+.card-box p {
+    font-size: 17px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background: rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.card-box .fa-location-dot:before, .fa-map-marker-alt:before {
+    content: "\f3c5";
+    color: #fff;
+}
+
+
+
+
+
+
+
+/* WHATSAPP FLOAT */
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #25D366;
+    color: #fff;
+    font-size: 22px;
+    padding: 12px 15px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .contact-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-header {
+    margin-bottom: 30px;
+}
+
+.contact-subtitle {
+    color: #0b4f56;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-header h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.contact-header p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+}
