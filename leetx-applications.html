@@ -64,7 +64,7 @@
               <div class="theme-menu-top d-block d-xl-none">
                 <div class="site-branding">
                   <a href="./index.html" class="brand-logo"
-                    ><img src="assets/logo 1 (1).png" alt="Brand Logo"
+                    ><img src="assets/lextron-logo-new.png" alt="Brand Logo"
                   /></a>
                 </div>
               </div>
@@ -249,6 +249,122 @@ Flow Meter
                         color: #2d2d2d;
                         font-weight: 800;
                       }
+
+
+                      
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
+
+@media (max-width: 991px) {
+
+  /* MOVE TABS ON TOP */
+  .auto-container {
+    flex-direction: column-reverse;
+    gap: 35px;
+  }
+
+  /* FULL WIDTH TABS */
+  .auto-tabs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .auto-tabs h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  /* MODERN TAB STYLE */
+  .tab-auto {
+    text-align: center;
+    padding: 16px 12px;
+    border-radius: 12px;
+    background: #fff7f0;
+    border: 1px solid #ffe0c2;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .tab-auto.active,
+  .tab-auto:hover {
+    background: linear-gradient(135deg, #ff7a00, #ff9d3f);
+    color: #fff;
+    border-color: transparent;
+    transform: translateY(-2px);
+  }
+
+  /* CONTENT */
+  .auto-left h1 {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .auto-left p {
+    text-align: center;
+  }
+}
+
+/* ================================
+   MOBILE VIEW
+================================ */
+
+@media (max-width: 767px) {
+
+  .auto-tabs {
+    grid-template-columns: 1fr;
+  }
+
+  .auto-tabs h1 {
+    font-size: 26px;
+  }
+
+  .tab-auto {
+    padding: 15px;
+    font-size: 15px;
+  }
+
+  .auto-left h1 {
+    font-size: 30px;
+  }
+
+  .auto-left p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+    .product-hero {
+    padding: 100px 0 !important;
+}
+}
+
+/* ================================
+   SMALL MOBILE
+================================ */
+
+@media (max-width: 480px) {
+
+  .auto-left h1 {
+    font-size: 26px;
+  }
+
+  .auto-tabs h1 {
+    font-size: 22px;
+  }
+
+  .tab-auto {
+    font-size: 14px;
+    padding: 14px;
+  }
+
+  .product-hero {
+    padding: 100px 0 !important;
+}
+}
                    </style>
 
 
