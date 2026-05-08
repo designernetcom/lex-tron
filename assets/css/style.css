@@ -1811,18 +1811,18 @@ label {
 }
 
 /* Sticky Header */
-.sticky {
+.header-area {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   width: 100%;
-  z-index: 1000;
-  margin: 0 auto;
+  z-index: 9999;
+  background: #f2f2f2;
 }
 
 .header-one .header-navigation.sticky {
-  background-color: #e7e7e7;
+  /* position: fixed; */
+  background-color: #e7e7e7f7;
 }
 
 .header-two .header-navigation.sticky {
@@ -1896,6 +1896,7 @@ label {
 @media (max-width: 1650px) {
   .orbia-hero_one {
     padding: 15px;
+    padding-top: 105px;
   }
 }
 
