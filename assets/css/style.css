@@ -1283,6 +1283,7 @@ label {
 .header-navigation .main-menu ul>li .sub-menu li {
   display: block;
   margin: 0;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-navigation .main-menu ul>li .sub-menu li a {
@@ -1323,7 +1324,7 @@ label {
 }
 
 .header-navigation .main-menu ul>li .sub-menu li:hover>a {
-  margin-left: 5px;
+  /* margin-left: 5px; */
   color: var(--secondary-color);
 }
 
@@ -1625,6 +1626,7 @@ label {
 
 .header-one .header-navigation .main-menu ul>li .sub-menu li a {
   color: black;
+  font-size: 17px;
 }
 
 .header-one .header-navigation .main-menu ul>li .sub-menu li a:hover {
