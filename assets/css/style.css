@@ -1817,12 +1817,12 @@ label {
   left: 0;
   width: 100%;
   z-index: 9999;
-  background: #f2f2f2;
+  background: #ffffff;
 }
 
 .header-one .header-navigation.sticky {
   /* position: fixed; */
-  background-color: #e7e7e7f7;
+  background-color: #fffffff7;
 }
 
 .header-two .header-navigation.sticky {
@@ -9855,8 +9855,13 @@ background: #ffffff;
     padding: 10px;
     border-radius: 5px;
     font-size: 14px;
-    color: #f4801a;
-    /* border: 1px solid #f4801a; */
+    color: rgb(244, 128, 26);
+    /* border: 2px solid #fd9f2a; */
+}
+
+.nav-button img {
+  border: 2px solid #fd9f2a;
+  border-radius: 5px;
 }
 
 
